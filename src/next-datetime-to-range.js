@@ -4,7 +4,7 @@
   var nx = global.nx || require('next-js-core2');
   var BLANK = ' ';
   var START_SUFFIX = ' 00:00:00';
-  var END_SUFFIX = ' 00:00:00';
+  var END_SUFFIX = ' 23:59:59';
 
   nx.datetimeToRange = function (inArray) {
     var start = inArray[0];

@@ -4,11 +4,11 @@ require('../src/next-datetime-to-range');
 
 describe('next/datetimeToRange', function () {
 
-  it('nx.datetimeToRange ["2018-01-12 12:00:23","2018-01-13 23:01:23"]', function () {
+  it('nx.datetimeToRange ["2018-01-12 00:00:00","2018-01-13 23:59:59"]', function () {
     var arr = ["2018-01-12 12:00:23", "2018-01-13 23:01:23"];
 
-    assert.equal(
-      ['2018-01-12 00:00:00', '2018-01-13 00:00:00'],
+    assert.deepEqual(
+      ['2018-01-12 00:00:00', '2018-01-13 23:59:59'],
       nx.datetimeToRange(arr)
     );
 
