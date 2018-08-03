@@ -1,0 +1,26 @@
+{
+  "name": "next-datatime-to-range",
+  "description": "Datetime string to range for next",
+  "main": "dist/next-datatime-to-range.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-datatime-to-range",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
