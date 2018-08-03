@@ -1,7 +1,7 @@
 {
-  "name": "next-datatime-to-range",
+  "name": "next-datetime-to-range",
   "description": "Datetime string to range for next",
-  "main": "dist/next-datatime-to-range.js",
+  "main": "dist/next-datetime-to-range.js",
   "authors": [
     "afei"
   ],
@@ -9,7 +9,7 @@
   "keywords": [
     "next"
   ],
-  "homepage": "https://github.com/afeiship/next-datatime-to-range",
+  "homepage": "https://github.com/afeiship/next-datetime-to-range",
   "moduleType": [
     "amd"
   ],

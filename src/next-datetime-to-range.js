@@ -6,7 +6,7 @@
   var START_SUFFIX = ' 00:00:00';
   var END_SUFFIX = ' 00:00:00';
 
-  nx.datatimeToRange = function (inArray) {
+  nx.datetimeToRange = function (inArray) {
     var start = inArray[0];
     var end = inArray[1];
     var result = [];
@@ -21,7 +21,7 @@
 
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.datatimeToRange;
+    module.exports = nx.datetimeToRange;
   }
 
 }());

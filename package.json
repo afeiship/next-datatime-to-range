@@ -1,8 +1,8 @@
 {
-  "name": "next-datatime-to-range",
+  "name": "next-datetime-to-range",
   "version": "0.0.0",
   "description": "Datetime string to range for next",
-  "homepage": "https://github.com/afeiship/next-datatime-to-range",
+  "homepage": "https://github.com/afeiship/next-datetime-to-range",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -11,7 +11,7 @@
     "build": "gulp",
     "test": "mocha"
   },
-  "main": "dist/next-datatime-to-range.js",
+  "main": "dist/next-datetime-to-range.js",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
